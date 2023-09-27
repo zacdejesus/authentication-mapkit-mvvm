@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197AB9432AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9422AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift */; };
+		197AB9452AC4BBAD00A905B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9442AC4BBAD00A905B0 /* ContentView.swift */; };
+		197AB9472AC4BBAE00A905B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197AB9462AC4BBAE00A905B0 /* Assets.xcassets */; };
+		197AB94A2AC4BBAE00A905B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197AB9492AC4BBAE00A905B0 /* Preview Assets.xcassets */; };
+		197AB9542AC4BBAE00A905B0 /* authentication_mapkit_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9532AC4BBAE00A905B0 /* authentication_mapkit_mvvmTests.swift */; };
+		197AB95E2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB95D2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITests.swift */; };
+		197AB9602AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB95F2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197AB9502AC4BBAE00A905B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197AB9372AC4BBAD00A905B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197AB93E2AC4BBAD00A905B0;
+			remoteInfo = "authentication+mapkit+mvvm";
+		};
+		197AB95A2AC4BBAE00A905B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197AB9372AC4BBAD00A905B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197AB93E2AC4BBAD00A905B0;
+			remoteInfo = "authentication+mapkit+mvvm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		197AB93F2AC4BBAD00A905B0 /* authentication+mapkit+mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "authentication+mapkit+mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197AB9422AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentication_mapkit_mvvmApp.swift; sourceTree = "<group>"; };
+		197AB9442AC4BBAD00A905B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		197AB9462AC4BBAE00A905B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197AB9492AC4BBAE00A905B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		197AB94F2AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "authentication+mapkit+mvvmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197AB9532AC4BBAE00A905B0 /* authentication_mapkit_mvvmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentication_mapkit_mvvmTests.swift; sourceTree = "<group>"; };
+		197AB9592AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "authentication+mapkit+mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197AB95D2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentication_mapkit_mvvmUITests.swift; sourceTree = "<group>"; };
+		197AB95F2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authentication_mapkit_mvvmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197AB93C2AC4BBAD00A905B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB94C2AC4BBAE00A905B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB9562AC4BBAE00A905B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197AB9362AC4BBAD00A905B0 = {
+			isa = PBXGroup;
+			children = (
+				197AB9412AC4BBAD00A905B0 /* authentication+mapkit+mvvm */,
+				197AB9522AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests */,
+				197AB95C2AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests */,
+				197AB9402AC4BBAD00A905B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197AB9402AC4BBAD00A905B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197AB93F2AC4BBAD00A905B0 /* authentication+mapkit+mvvm.app */,
+				197AB94F2AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests.xctest */,
+				197AB9592AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197AB9412AC4BBAD00A905B0 /* authentication+mapkit+mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				197AB9422AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift */,
+				197AB9442AC4BBAD00A905B0 /* ContentView.swift */,
+				197AB9462AC4BBAE00A905B0 /* Assets.xcassets */,
+				197AB9482AC4BBAE00A905B0 /* Preview Content */,
+			);
+			path = "authentication+mapkit+mvvm";
+			sourceTree = "<group>";
+		};
+		197AB9482AC4BBAE00A905B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				197AB9492AC4BBAE00A905B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		197AB9522AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests */ = {
+			isa = PBXGroup;
+			children = (
+				197AB9532AC4BBAE00A905B0 /* authentication_mapkit_mvvmTests.swift */,
+			);
+			path = "authentication+mapkit+mvvmTests";
+			sourceTree = "<group>";
+		};
+		197AB95C2AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				197AB95D2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITests.swift */,
+				197AB95F2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITestsLaunchTests.swift */,
+			);
+			path = "authentication+mapkit+mvvmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197AB93E2AC4BBAD00A905B0 /* authentication+mapkit+mvvm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197AB9632AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvm" */;
+			buildPhases = (
+				197AB93B2AC4BBAD00A905B0 /* Sources */,
+				197AB93C2AC4BBAD00A905B0 /* Frameworks */,
+				197AB93D2AC4BBAD00A905B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "authentication+mapkit+mvvm";
+			productName = "authentication+mapkit+mvvm";
+			productReference = 197AB93F2AC4BBAD00A905B0 /* authentication+mapkit+mvvm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		197AB94E2AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197AB9662AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvmTests" */;
+			buildPhases = (
+				197AB94B2AC4BBAE00A905B0 /* Sources */,
+				197AB94C2AC4BBAE00A905B0 /* Frameworks */,
+				197AB94D2AC4BBAE00A905B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197AB9512AC4BBAE00A905B0 /* PBXTargetDependency */,
+			);
+			name = "authentication+mapkit+mvvmTests";
+			productName = "authentication+mapkit+mvvmTests";
+			productReference = 197AB94F2AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		197AB9582AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197AB9692AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvmUITests" */;
+			buildPhases = (
+				197AB9552AC4BBAE00A905B0 /* Sources */,
+				197AB9562AC4BBAE00A905B0 /* Frameworks */,
+				197AB9572AC4BBAE00A905B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197AB95B2AC4BBAE00A905B0 /* PBXTargetDependency */,
+			);
+			name = "authentication+mapkit+mvvmUITests";
+			productName = "authentication+mapkit+mvvmUITests";
+			productReference = 197AB9592AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197AB9372AC4BBAD00A905B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					197AB93E2AC4BBAD00A905B0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					197AB94E2AC4BBAE00A905B0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 197AB93E2AC4BBAD00A905B0;
+					};
+					197AB9582AC4BBAE00A905B0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 197AB93E2AC4BBAD00A905B0;
+					};
+				};
+			};
+			buildConfigurationList = 197AB93A2AC4BBAD00A905B0 /* Build configuration list for PBXProject "authentication+mapkit+mvvm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 197AB9362AC4BBAD00A905B0;
+			productRefGroup = 197AB9402AC4BBAD00A905B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197AB93E2AC4BBAD00A905B0 /* authentication+mapkit+mvvm */,
+				197AB94E2AC4BBAE00A905B0 /* authentication+mapkit+mvvmTests */,
+				197AB9582AC4BBAE00A905B0 /* authentication+mapkit+mvvmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197AB93D2AC4BBAD00A905B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197AB94A2AC4BBAE00A905B0 /* Preview Assets.xcassets in Resources */,
+				197AB9472AC4BBAE00A905B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB94D2AC4BBAE00A905B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB9572AC4BBAE00A905B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197AB93B2AC4BBAD00A905B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197AB9452AC4BBAD00A905B0 /* ContentView.swift in Sources */,
+				197AB9432AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB94B2AC4BBAE00A905B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197AB9542AC4BBAE00A905B0 /* authentication_mapkit_mvvmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197AB9552AC4BBAE00A905B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197AB9602AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITestsLaunchTests.swift in Sources */,
+				197AB95E2AC4BBAE00A905B0 /* authentication_mapkit_mvvmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197AB9512AC4BBAE00A905B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197AB93E2AC4BBAD00A905B0 /* authentication+mapkit+mvvm */;
+			targetProxy = 197AB9502AC4BBAE00A905B0 /* PBXContainerItemProxy */;
+		};
+		197AB95B2AC4BBAE00A905B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197AB93E2AC4BBAD00A905B0 /* authentication+mapkit+mvvm */;
+			targetProxy = 197AB95A2AC4BBAE00A905B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		197AB9612AC4BBAE00A905B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		197AB9622AC4BBAE00A905B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		197AB9642AC4BBAE00A905B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"authentication+mapkit+mvvm/Preview Content\"";
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		197AB9652AC4BBAE00A905B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"authentication+mapkit+mvvm/Preview Content\"";
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		197AB9672AC4BBAE00A905B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authentication+mapkit+mvvm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/authentication+mapkit+mvvm";
+			};
+			name = Debug;
+		};
+		197AB9682AC4BBAE00A905B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authentication+mapkit+mvvm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/authentication+mapkit+mvvm";
+			};
+			name = Release;
+		};
+		197AB96A2AC4BBAE00A905B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "authentication+mapkit+mvvm";
+			};
+			name = Debug;
+		};
+		197AB96B2AC4BBAE00A905B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.authentication-mapkit-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "authentication+mapkit+mvvm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197AB93A2AC4BBAD00A905B0 /* Build configuration list for PBXProject "authentication+mapkit+mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197AB9612AC4BBAE00A905B0 /* Debug */,
+				197AB9622AC4BBAE00A905B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197AB9632AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197AB9642AC4BBAE00A905B0 /* Debug */,
+				197AB9652AC4BBAE00A905B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197AB9662AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197AB9672AC4BBAE00A905B0 /* Debug */,
+				197AB9682AC4BBAE00A905B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197AB9692AC4BBAE00A905B0 /* Build configuration list for PBXNativeTarget "authentication+mapkit+mvvmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197AB96A2AC4BBAE00A905B0 /* Debug */,
+				197AB96B2AC4BBAE00A905B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 197AB9372AC4BBAD00A905B0 /* Project object */;
+}
