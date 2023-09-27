@@ -17,6 +17,8 @@
 		197AB96D2AC4BC6F00A905B0 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB96C2AC4BC6F00A905B0 /* ContentView-ViewModel.swift */; };
 		197AB96F2AC4BE6100A905B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB96E2AC4BE6100A905B0 /* Location.swift */; };
 		197AB9712AC4BF6900A905B0 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9702AC4BF6900A905B0 /* FileManager-DocumentsDirectory.swift */; };
+		197AB9732AC4C3BF00A905B0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9722AC4C3BF00A905B0 /* EditView.swift */; };
+		197AB9752AC4C42100A905B0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197AB9742AC4C42100A905B0 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		197AB96C2AC4BC6F00A905B0 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		197AB96E2AC4BE6100A905B0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		197AB9702AC4BF6900A905B0 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		197AB9722AC4C3BF00A905B0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		197AB9742AC4C42100A905B0 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +108,11 @@
 				197AB9442AC4BBAD00A905B0 /* ContentView.swift */,
 				197AB96C2AC4BC6F00A905B0 /* ContentView-ViewModel.swift */,
 				197AB96E2AC4BE6100A905B0 /* Location.swift */,
+				197AB9722AC4C3BF00A905B0 /* EditView.swift */,
 				197AB9462AC4BBAE00A905B0 /* Assets.xcassets */,
 				197AB9482AC4BBAE00A905B0 /* Preview Content */,
 				197AB9702AC4BF6900A905B0 /* FileManager-DocumentsDirectory.swift */,
+				197AB9742AC4C42100A905B0 /* Result.swift */,
 			);
 			path = "authentication+mapkit+mvvm";
 			sourceTree = "<group>";
@@ -268,7 +274,9 @@
 			files = (
 				197AB9452AC4BBAD00A905B0 /* ContentView.swift in Sources */,
 				197AB9712AC4BF6900A905B0 /* FileManager-DocumentsDirectory.swift in Sources */,
+				197AB9732AC4C3BF00A905B0 /* EditView.swift in Sources */,
 				197AB96D2AC4BC6F00A905B0 /* ContentView-ViewModel.swift in Sources */,
+				197AB9752AC4C42100A905B0 /* Result.swift in Sources */,
 				197AB96F2AC4BE6100A905B0 /* Location.swift in Sources */,
 				197AB9432AC4BBAD00A905B0 /* authentication_mapkit_mvvmApp.swift in Sources */,
 			);
@@ -437,6 +445,7 @@
 				DEVELOPMENT_TEAM = DTJLZH295U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "es requerido";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +475,7 @@
 				DEVELOPMENT_TEAM = DTJLZH295U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "es requerido";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
